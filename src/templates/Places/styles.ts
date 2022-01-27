@@ -1,7 +1,10 @@
 import styled from 'styled-components'
+const universe =
+  'https://ichef.bbci.co.uk/news/640/cpsprodpb/71AC/production/_116600192_gettyimages-1211293811.jpg'
 
 export const Wrapper = styled.div`
   padding: var(--large) var(--medium);
+  background-image: ${universe};
 `
 
 export const Container = styled.section`

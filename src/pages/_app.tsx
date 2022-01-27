@@ -21,7 +21,7 @@ function App({ Component, pageProps }: AppProps) {
         />
         <meta
           name="description"
-          content="A simple project to show my favorite spots in the world"
+          content="Um projeto simples para mostrar alguns observatórios astrônomicos ao redor do mundo"
         />
       </Head>
       <DefaultSeo />

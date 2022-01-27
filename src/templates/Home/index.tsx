@@ -12,22 +12,22 @@ export default function HomeTemplate({ places }: MapProps) {
     <>
       <NextSeo
         title="My Trips"
-        description="A simple project to show in a map the places that I went and show more informations and photos when clicked."
-        canonical="https://my-trips.willianjusten.com.br"
+        description="Um projeto simples para mostrar alguns observatórios astrônomicos ao redor do mundo."
+        canonical=""
         openGraph={{
-          url: 'https://my-trips.willianjusten.com.br',
-          title: 'My Trips',
+          url: '',
+          title: 'My Locals',
           description:
-            'A simple project to show in a map the places that I went and show more informations and photos when clicked.',
+            'Um projeto simples para mostrar alguns observatórios astrônomicos ao redor do mundo',
           images: [
             {
-              url: 'https://my-trips.willianjusten.com.br/img/cover.png',
+              url: '',
               width: 1280,
               height: 720,
-              alt: 'My Trips'
+              alt: 'My Locals'
             }
           ],
-          site_name: 'My Trips'
+          site_name: 'My Locals'
         }}
       />
       <LinkWrapper href="/about">
