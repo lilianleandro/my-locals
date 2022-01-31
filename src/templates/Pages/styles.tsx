@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-const universe = 'https://wallpaperaccess.com/full/45399.jpg'
 
 export const Content = styled.section`
   text-align: center;
@@ -10,11 +9,6 @@ export const Content = styled.section`
   height: 100vh;
   max-width: var(--container);
   margin: auto;
-  background-image: url(${universe});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  max-width: 100%;
 `
 
 export const Heading = styled.h1`
@@ -28,16 +22,13 @@ export const Heading = styled.h1`
 `
 
 export const Body = styled.div`
-  max-width: 80%;
-  background-color: rgb(0, 0, 0, 0.7);
-  border-radius: 8px;
   p {
     align-items: center;
     text-align: center;
     font-size: var(--medium);
     line-height: var(--medium);
     padding: 8px;
-    border-radius: 8px;
+
     margin: var(--small) 0;
   }
 `
