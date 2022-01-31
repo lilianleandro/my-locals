@@ -1,10 +1,7 @@
 import styled from 'styled-components'
-const universe =
-  'https://ichef.bbci.co.uk/news/640/cpsprodpb/71AC/production/_116600192_gettyimages-1211293811.jpg'
 
 export const Wrapper = styled.div`
   padding: var(--large) var(--medium);
-  background-image: ${universe};
 `
 
 export const Container = styled.section`
@@ -15,9 +12,17 @@ export const Container = styled.section`
 export const Heading = styled.h1`
   font-size: var(--large);
   margin-bottom: var(--medium);
+  width: max-content;
+  padding: 8px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 export const Body = styled.div`
+  padding: 8px;
+  border-radius: 8px;
   margin-bottom: var(--large);
   p {
     margin-bottom: var(--medium);

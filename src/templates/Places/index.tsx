@@ -50,7 +50,7 @@ export default function PlacesTemplate({ place }: PlacesTemplateProps) {
                 alt={place.name}
                 width={400}
                 height={600}
-                quality={100}
+                quality={75}
               />
             ))}
           </S.Gallery>

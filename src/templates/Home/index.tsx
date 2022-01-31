@@ -11,7 +11,7 @@ export default function HomeTemplate({ places }: MapProps) {
   return (
     <>
       <NextSeo
-        title="My Trips"
+        title="Projetin da Lili =)"
         description="Um projeto simples para mostrar alguns observatórios astrônomicos ao redor do mundo."
         canonical=""
         openGraph={{
