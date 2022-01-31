@@ -6,11 +6,12 @@ const GlobalStyles = createGlobalStyle`
     --background: #110d2b;
     --white: #eeeeee;
 
-    --container: 100rem;
+    --container: 1400px;
 
-    --small: 1.5rem;
-    --medium: 3rem;
-    --large: 5rem;
+    --small: 16px;
+    --medium: 48px;
+    --large: 80px;
+
   }
     * {
     margin: 0;
@@ -33,7 +34,7 @@ const GlobalStyles = createGlobalStyle`
     }
     p,
     a {
-        font-size: 2rem;
+        font-size: 32px;
         line-height: var(--medium);
     }
     a {
